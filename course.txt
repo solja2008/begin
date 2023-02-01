@@ -1,9 +1,0 @@
-https://2ip.ru/dig/
-
-
-
-
-
-css свойства:
-border
-background
