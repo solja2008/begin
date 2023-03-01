@@ -32,4 +32,4 @@ menu.unshift(hot_dog);
 hot_dog.ingridients4.splice(4);
 console.log(menu)
 
-console.log(160+300+100+140-80-120-10-60)  
+console.log(price1+price2+price3+price4-costPrice1-costPrice2-costPrice3-costPrice4)  
