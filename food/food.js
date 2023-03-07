@@ -22,24 +22,21 @@ let hot_dog = {
     costPrice: 60,
     price: 140
 }
-let ingridientsPrice = {
-       'chicken': 40,
-       'pita': 10,
-       'vegetables': 20,
-       'sauce': 10,
-       'meat': 60,
-       'cheese': 40,
-       'burger_bun': 10,
-       'potato': 10,
-       'salt': 5,
-       'sausage': 60,
-       'cabbage': 50,
-       'hot_dog_bun': 10
+ let ingridientsPrice = {
+    'chicken': 40,
+    'pita': 10,
+    'vegetables': 20,
+    'sauce': 10,
+    'meat': 60,
+    'cheese': 40,
+    'burger_bun': 10,
+    'potato': 10,
+    'salt': 5,
+    'sausage': 60,
+    'cabbage': 50,
+    'hot_dog_bun': 10
 }
-let shaurma.ingridients =
-let profit = {
-    profit: shaurma.price-ingridients.shaurma
-}
+
 let menu = [shaurma, cheeseburger, french_fries, hot_dog];
 console.log(menu);
 
@@ -47,8 +44,12 @@ menu.pop();
 console.log(menu);
 
 menu.unshift(hot_dog);
-hot_dog.ingridients4.splice(3);
+hot_dog.ingridients.splice(3);
 console.log(menu)
 
-let totalprofit = 
-console.log()  
+let profit1 = shaurma.price - shaurma.costPrice;
+    profit2 = cheeseburger.price - cheeseburger.costPrice;
+    profit3 = french_fries.price - french_fries.costPrice;
+    profit4 = hot_dog.price - hot_dog.costPrice 
+
+console.log(profit1, profit2, profit3, profit4)  
