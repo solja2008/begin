@@ -78,11 +78,12 @@ for (let i = 0; i < menu.length; i++) {
    console.log(menu);
 
 
-// про доход            
+// про доход   ///         
 
              
 for (let i = 0; i < menu.length; i++) {
     menu[i].profit = menu[i].Price - menu[i].costPrice
+
 }
  console.log(menu)
 
