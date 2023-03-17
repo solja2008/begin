@@ -65,7 +65,7 @@ let menu = [shaurma,
 };
 
 
-//себебстоимость
+//себебстоимость  ///
 
 
 for (let i = 0; i < menu.length; i++) {
