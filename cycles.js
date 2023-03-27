@@ -88,3 +88,14 @@ for (let i = 0; i < menu.length; i++) {
  console.log(menu)
 
 
+ /////про глобальные переменные  ///
+
+ let finalMenu = '' ;
+
+ //// про локальные переменные ////
+
+ for (let i = 0; i < menu.length; i++) {
+   let final = `what to eat: ${menu[i].name}; how much to pay: ${menu[i].Price}\n`;   
+   finalMenu += final;
+ }
+ console.log(`choose your food: \n${finalMenu}`)
